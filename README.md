@@ -1,14 +1,11 @@
-# docker_mongodb
-Docker + MongoDB
+# Docker / MongoDB / Node.js
+--
+<img src="https://sherpa.one/images/sherpa-logotype.png" width="180px"><br>
+__Alexandre Leroux__
 
-## Connexion à la db
-mongosh admin -u <user> -p <password>
-mongosh admin -u us3r -p ap4ssW0rd
+_Enseignant / Formateur_<br>
+_Développeur logiciel web & mobile_
 
-https://www.mongodb.com/docs/manual/reference/method/db.auth/
+Nancy (Grand Est, France)
 
-## Création d'un dump de MongoDB
-$ docker exec some-mongo sh -c 'exec mongodump -d <database_name> --archive' > /some/path/on/your/host/all-collections.archive
-
-## Installation
-`docker compose run client npm install`
+https://sherpa.one
